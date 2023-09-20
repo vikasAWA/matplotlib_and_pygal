@@ -19,7 +19,7 @@ while True:
     plt.gca().axes.get_xaxis().set_visible(False)
     plt.gca().axes.get_yaxis().set_visible(False)
     
-    plt.show()
+    plt.savefig('random_walk.png')
     
     keep_running = input("Make another walk? (y/n): ")
     if keep_running == 'n':
